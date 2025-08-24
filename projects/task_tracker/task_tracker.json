@@ -1,0 +1,24 @@
+{
+    "tasks": [
+        {
+            "id": "1",
+            "description": "Remember to call Sally",
+            "status": "todo",
+            "createdAt": "Hello world",
+            "updatedAt": "The date and time when the task was last updated"
+        },
+        {
+            "id": "2",
+            "description": "A short description of the task",
+            "status": "in-progress",
+            "createdAt": "The date and time when the task was created",
+            "updatedAt": "The date and time when the task was last updated"
+        },{
+            "id": "3",
+            "description": "A short description of the task",
+            "status": "done",
+            "createdAt": "The date and time when the task was created",
+            "updatedAt": "The date and time when the task was last updated"
+        }
+    ]
+}
