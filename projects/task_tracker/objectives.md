@@ -12,3 +12,4 @@
 ## Stretch Objectives
 - Add pagination to task listing
 - Implement a GUI
+- Modularisation (Classes and Objects)

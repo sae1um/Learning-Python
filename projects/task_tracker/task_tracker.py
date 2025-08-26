@@ -9,14 +9,18 @@ status: The status of the task (todo, in-progress, done)
 createdAt: The date and time when the task was created
 updatedAt: The date and time when the task was last updated
 '''
-with open("task_tracker.json", "+r") as file:
-    # loads entire task list
-    task_list = json.load(file)["tasks"]
+def read_task_file():
+    with open("task_tracker.json", "+r") as file:
+        # loads entire task list
+        task_list = json.load(file)["tasks"]
+
+def write_task_file():
+    print()
 
 program_end = False
 
 def add_new_task():
-    print("===== ADD A NEW TASK =====")
+    print()
 
 
 def update_task():
@@ -83,7 +87,7 @@ def list_tasks():
     print("3. List all tasks that are not done")
     print("4. List all tasks that are in progress")
     user_input = input("Option (1/2/3/4): ").strip()
-
+    
     match user_input:
         case "1":
             list_all_tasks()
